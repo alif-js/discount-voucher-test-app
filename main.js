@@ -6,7 +6,7 @@ document.getElementById('btn-apply').addEventListener('click', function () {
     const voucherCodeElement = document.getElementById('voucher-code');
     const voucherCodeElementString = voucherCodeElement.value;
 
-    if (voucherCodeElementString === "DISC30") {
+    if (voucherCodeElementString === "UPOMA") {
         const finalCost = costPrice * 0.7;
 
         const discountedPriceElement = document.getElementById('discounted-price');
